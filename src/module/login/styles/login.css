@@ -1,0 +1,2992 @@
+.login {
+	width: 100%;
+}
+
+.gion,
+.lines,
+.pics {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.from_data {
+	width: 100%;
+	/*margin: 15% auto;*/
+	background-color: #11151a;
+	box-shadow: 0px 0px 30px rgba(0, 204, 204, .5);
+}
+
+.from_left {
+  width: 100%;
+	float: left;
+	background-color: #11151a;
+	overflow: hidden;
+}
+
+#earth_nav {
+	position: relative;
+	animation: earth 250s linear 3.1s infinite normal;
+	-moz-animation: earth 250s linear 3.1s infinite normal;
+	-webkit-animation: earth 250s linear 3.1s infinite normal;
+	-o-animation: earth 250s linear 3.1s infinite normal;
+}
+
+.earth_nav {
+	position: relative;
+	animation: earth 250s linear 3.1s infinite normal;
+	-moz-animation: earth 250s linear 3.1s infinite normal;
+	-webkit-animation: earth 250s linear 3.1s infinite normal;
+	-o-animation: earth 250s linear 3.1s infinite normal;
+}
+
+@keyframes earth {
+	from {
+		transform: rotateZ(0deg);
+		-webkit-transform: rotateZ(0deg);
+		-moz-transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+		-webkit-transform: rotateZ(360deg);
+		-moz-transform: rotateZ(360deg);
+	}
+}
+
+@-moz-keyframes earth
+/* Firefox */
+
+{
+	from {
+		transform: rotateZ(0deg);
+		-webkit-transform: rotateZ(0deg);
+		-moz-transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+		-webkit-transform: rotateZ(360deg);
+		-moz-transform: rotateZ(360deg);
+	}
+}
+
+@-webkit-keyframes earth
+{
+	from {
+		transform: rotateZ(0deg);
+		-webkit-transform: rotateZ(0deg);
+		-moz-transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+		-webkit-transform: rotateZ(360deg);
+		-moz-transform: rotateZ(360deg);
+	}
+}
+
+@-o-keyframes earth
+{
+	from {
+		transform: rotateZ(0deg);
+		-webkit-transform: rotateZ(0deg);
+		-moz-transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+		-webkit-transform: rotateZ(360deg);
+		-moz-transform: rotateZ(360deg);
+	}
+}
+
+#earth {
+	width: 100%;
+	padding-bottom: 127.9%;
+	background: url("/static/images/loginImg/login_bg.jpg") no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.earth {
+	animation: earth_bg 3.1s linear 0s 1 normal forwards;
+	-moz-animation: earth_bg 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: earth_bg 3.1s linear 0s 1 normal forwards;
+	-o-animation: earth_bg 3.1s linear 0s 1 normal forwards;
+}
+
+@keyframes earth_bg {
+	from{
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to{
+		opacity: .6;
+		filter: alpha(opacity=60);
+	}
+}
+
+@-moz-keyframes earth_bg {
+	from{
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to{
+		opacity: .6;
+		filter: alpha(opacity=60);
+	}
+}
+
+@-webkit-keyframes earth_bg {
+	from{
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to{
+		opacity: .6;
+		filter: alpha(opacity=60);
+	}
+}
+
+@-o-keyframes earth_bg {
+	from{
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to{
+		opacity: .6;
+		filter: alpha(opacity=60);
+	}
+}
+.pic_1 {
+	width: 18.1%;
+	height: 11.9%;
+	position: absolute;
+	left: 18.5%;
+	top: 51.5%;
+	background: url(/static/images/loginImg/fillstyle/trigon_1.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2s linear 0s infinite alternate;
+	-moz-animation: pic_1 2s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2s linear 0s infinite alternate;
+	-o-animation: pic_1 2s linear 0s infinite alternate;
+}
+.pic_2 {
+	width: 10%;
+	height: 10.37%;
+	position: absolute;
+	left: 9.5%;
+	top: 43%;
+	background: url(/static/images/loginImg/fillstyle/trigon_2.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.15s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.15s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.15s linear 0s infinite alternate;
+	-o-animation: pic_1 2.15s linear 0s infinite alternate;
+}
+.pic_3 {
+	width: 20%;
+	height: 14.97%;
+	position: absolute;
+	left: 27%;
+	top: 25.5%;
+	background: url(/static/images/loginImg/fillstyle/trigon_3.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.20s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.20s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.20s linear 0s infinite alternate;
+	-o-animation: pic_1 2.20s linear 0s infinite alternate;
+}
+
+/*
+ * 第四张图片
+ */
+
+.pic_4 {
+	width: 20%;
+	height: 14.97%;
+	position: absolute;
+	left: 38%;
+	top: 14.5%;
+	background: url(/static/images/loginImg/fillstyle/trigon_4.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.25s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.25s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.25s linear 0s infinite alternate;
+	-o-animation: pic_1 2.25s linear 0s infinite alternate;
+}
+
+/*
+ * 第五张图片
+ */
+
+.pic_5 {
+	width: 12.38%;
+	height: 9.17%;
+	position: absolute;
+	left: 64.5%;
+	top: 67%;
+	background: url(/static/images/loginImg/fillstyle/trigon_5.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.3s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.3s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.3s linear 0s infinite alternate;
+	-o-animation: pic_1 2.3s linear 0s infinite alternate;
+}
+/*
+ * 第六张图片
+ */
+.pic_6 {
+	width: 15.65%;
+	height: 9.17%;
+	position: absolute;
+	left: 10.5%;
+	top: 26.5%;
+	background: url(/static/images/loginImg/fillstyle/trigon_6.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.4s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.4s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.4s linear 0s infinite alternate;
+	-o-animation: pic_1 2.4s linear 0s infinite alternate;
+}
+.pic_7 {
+	width: 14.76%;
+	height: 10.91%;
+	position: absolute;
+	left: 15.5%;
+    top: 62%;
+	background: url(/static/images/loginImg/fillstyle/trigon_7.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.5s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.5s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.5s linear 0s infinite alternate;
+	-o-animation: pic_1 2.5s linear 0s infinite alternate;
+}
+.pic_8 {
+	width: 10.44%;
+	height: 8.57%;
+	position: absolute;
+	left: 26.7%;
+    top: 57%;
+	background: url(/static/images/loginImg/fillstyle/trigon_8.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.45s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.45s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.45s linear 0s infinite alternate;
+	-o-animation: pic_1 2.45s linear 0s infinite alternate;
+}
+.pic_9 {
+	width: 18.35%;
+	height: 15.45%;
+	position: absolute;
+	left: 57.5%;
+    top: 46.7%;
+	background: url(/static/images/loginImg/fillstyle/trigon_9.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.55s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.55s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.55s linear 0s infinite alternate;
+	-o-animation: pic_1 2.55s linear 0s infinite alternate;
+}
+.pic_10 {
+	width: 15%;
+	height: 9.96%;
+	position: absolute;
+	left: 40.7%;
+    top: 69.8%;
+	background: url(/static/images/loginImg/fillstyle/trigon_10.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.6s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.6s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.6s linear 0s infinite alternate;
+	-o-animation: pic_1 2.6s linear 0s infinite alternate;
+}
+.pic_11 {
+	width: 14.56%;
+	height: 13.18%;
+	position: absolute;
+	left: 80.3%;
+    top: 33.5%;
+	background: url(/static/images/loginImg/fillstyle/trigon_11.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.65s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.65s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.65s linear 0s infinite alternate;
+	-o-animation: pic_1 2.65s linear 0s infinite alternate;
+}
+.pic_12 {
+	width: 12.46%;
+	height: 9.17%;
+	position: absolute;
+	left: 60.7%;
+    top: 16.3%;
+	background: url(/static/images/loginImg/fillstyle/trigon_12.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.7s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.7s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.7s linear 0s infinite alternate;
+	-o-animation: pic_1 2.7s linear 0s infinite alternate;
+}
+.pic_13 {
+	width: 15.16%;
+	height: 14.63%;
+	position: absolute;
+	left: 5.5%;
+    top: 32%;
+	background: url(/static/images/loginImg/fillstyle/trigon_13.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.75s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.75s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.75s linear 0s infinite alternate;
+	-o-animation: pic_1 2.75s linear 0s infinite alternate;
+}
+.pic_14 {
+	width: 15.77%;
+	height: 12.61%;
+	position: absolute;
+	left: 49.3%;
+    top: 27%;
+	background: url(/static/images/loginImg/fillstyle/trigon_14.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.8s linear 0s infinite alternate;
+	-moz-animation: pic_1 2.8s linear 0s infinite alternate;
+	-webkit-animation: pic_1 2.8s linear 0s infinite alternate;
+	-o-animation: pic_1 2.8s linear 0s infinite alternate;
+}
+@keyframes pic_1 {
+	from {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+
+@-moz-keyframes pic_1
+{
+	from {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+
+@-webkit-keyframes pic_1
+{
+	from {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+
+@-o-keyframes pic_1
+{
+	from {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+	to {
+		opacity: 1;
+		filter: alpha(opacity=100);
+	}
+}
+/*圆点*/
+
+.gion {
+	margin-top: 20.7%;
+	margin-left: 9.2%;
+	width: 83.1%;
+	height: 66.0%;
+	margin-right: auto;
+	background: url(/static/images/loginImg/gion.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.5s linear 3.1s infinite alternate;
+	-moz-animation: pic_1 1.5s linear 3.1s infinite alternate;
+	-webkit-animation: pic_1 1.5s linear 3.1s infinite alternate;
+	-o-animation: pic_1 1.5s linear 3.1s infinite alternate;
+}
+/*线条*/
+
+.line_1 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line1.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_1 .1s linear 0.5s 1 normal forwards;
+	-moz-animation: line_1 .1s linear 0.5s 1 normal forwards;
+	-webkit-animation: line_1 .1s linear 0.5s 1 normal forwards;
+	-o-animation: line_1 .1s linear 0.5s 1 normal forwards;
+}
+
+.line_2 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line2.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_34 .1s linear 2.15s infinite normal forwards;
+	-moz-animation: line_34 .1s linear 2.15s 1 normal forwards;
+	-webkit-animation: line_34 .1s linear 2.15s 1 normal forwards;
+	-o-animation: line_34 .1s linear 2.15s 1 normal forwards;
+}
+
+.line_3 {
+	position: absolute;
+	left: 81%;
+	top: 65%;
+	width: 6.33%;
+	height: 2.18%;
+	background: url(/static/images/loginImg/dottedLine/line3.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_4 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line4.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_35 .1s linear 2.2s 1 normal forwards;
+	-moz-animation: line_35 .1s linear 2.2s 1 normal forwards;
+	-webkit-animation: line_35 .1s linear 2.2s 1 normal forwards;
+	-o-animation: line_35 .1s linear 2.2s 1 normal forwards;
+}
+
+.line_5 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line5.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_2 .1s linear 0.55s 1 normal forwards;
+	-moz-animation: line_2 .1s linear 0.55s 1 normal forwards;
+	-webkit-animation: line_2 .1s linear 0.55s 1 normal forwards;
+	-o-animation: line_2 .1s linear 0.55s 1 normal forwards;
+}
+
+.line_6 {
+	position: absolute;
+	left: 35.8%;
+	top: 79.2%;
+	width: 3.39%;
+	height: 0.41%;
+	background: url(/static/images/loginImg/dottedLine/line6.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_7 {
+	position: absolute;
+	left: 28%;
+	top: 77%;
+	width: 7.46%;
+	height: 2.40%;
+	background: url(/static/images/loginImg/dottedLine/line7.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_8 {
+	position: absolute;
+	left: 17.7%;
+	top: 65.3%;
+	width: 2.38%;
+	height: 0.22%;
+	background: url(/static/images/loginImg/dottedLine/line8.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.5s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.5s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.5s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.5s linear 3.15s infinite alternate;
+}
+
+.line_9 {
+	position: absolute;
+	left: 14.9%;
+	top: 62.5%;
+	width: 3.84%;
+	height: 5.36%;
+	background: url(/static/images/loginImg/dottedLine/line9.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_10 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line10.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_3 .1s linear 0.6s 1 normal forwards;
+	-moz-animation: line_3 .1s linear 0.6s 1 normal forwards;
+	-webkit-animation: line_3 .1s linear 0.6s 1 normal forwards;
+	-o-animation: line_3 .1s linear 0.6s 1 normal forwards;
+}
+
+.line_11 {
+	position: absolute;
+	left: 9.5%;
+	top: 50.7%;
+	width: 0.36%;
+	height: 4.44%;
+	background: url(/static/images/loginImg/dottedLine/line11.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_12 {
+	position: absolute;
+	left: 9.5%;
+	top: 45.5%;
+	width: 1.05%;
+	height: 5.33%;
+	background: url(/static/images/loginImg/dottedLine/line12.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_13 {
+	position: absolute;
+	left: 38%;
+	top: 18.3%;
+	width: 5.73%;
+	height: 1.7%;
+	background: url(/static/images/loginImg/dottedLine/line13.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_14 {
+	position: absolute;
+	left: 36.5%;
+	top: 18.3%;
+	width: 5.36%;
+	height: 2.46%;
+	background: url(/static/images/loginImg/dottedLine/line14.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_15 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line15.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_4 .1s linear .65s 1 normal forwards;
+	-moz-animation: line_4 .1s linear .65s 1 normal forwards;
+	-webkit-animation: line_4 .1s linear .65s 1 normal forwards;
+	-o-animation: line_4 .1s linear .65s 1 normal forwards;
+}
+
+.line_16 {
+	position: absolute;
+	left: 91%;
+	top: 49.3%;
+	width: 0.97%;
+	height: 5.48%;
+	background: url(/static/images/loginImg/dottedLine/line16.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.6s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.6s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.6s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.6s linear 3.15s infinite alternate;
+}
+
+.line_17 {
+	position: absolute;
+	left: 90.7%;
+	top: 44%;
+	width: 0.44%;
+	height: 5.23%;
+	background: url(/static/images/loginImg/dottedLine/line17.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_18 {
+	position: absolute;
+	left: 83.5%;
+	top: 35%;
+	width: 3.06%;
+	height: 3.31%;
+	background: url(/static/images/loginImg/dottedLine/line18.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_19 {
+	position: absolute;
+	left: 83.2%;
+	top: 34.4%;
+	width: 3.1%;
+	height: 0.13%;
+	background: url(/static/images/loginImg/dottedLine/line19.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.65s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.65s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.65s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.65s linear 3.15s infinite alternate;
+}
+
+.line_20 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line20.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_5 .1s linear .7s 1 normal forwards;
+	-moz-animation: line_5 .1s linear .7s 1 normal forwards;
+	-webkit-animation: line_5 .1s linear .7s 1 normal forwards;
+	-o-animation: line_5 .1s linear .7s 1 normal forwards;
+}
+
+.line_21 {
+	position: absolute;
+	left: 87.5%;
+	top: 38.5%;
+	width: 3.35%;
+	height: 5.33%;
+	background: url(/static/images/loginImg/dottedLine/line21.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_22 {
+	position: absolute;
+	left: 81.5%;
+	top: 68.5%;
+	width: 2.9%;
+	height: 3.25%;
+	background: url(/static/images/loginImg/dottedLine/line22.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_23 {
+	position: absolute;
+	left: 77.5%;
+	top: 72%;
+	width: 1.9%;
+	height: 2.65%;
+	background: url(/static/images/loginImg/dottedLine/line23.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_24 {
+	position: absolute;
+	left: 73.7%;
+	top: 72.5%;
+	width: 5.32%;
+	height: 2.05%;
+	background: url(/static/images/loginImg/dottedLine/line24.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.7s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.7s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.7s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.7s linear 3.15s infinite alternate;
+}
+
+.line_25 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line25.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_6 .1s linear .75s 1 normal forwards;
+	-moz-animation: line_6 .1s linear .75s 1 normal forwards;
+	-webkit-animation: line_6 .1s linear .75s 1 normal forwards;
+	-o-animation: line_6 .1s linear .75s 1 normal forwards;
+}
+
+.line_26 {
+	position: absolute;
+	left: 70%;
+	top: 22%;
+	width: 7.62%;
+	height: 2.52%;
+	background: url(/static/images/loginImg/dottedLine/line26.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.75s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.75s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.75s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.75s linear 3.15s infinite alternate;
+}
+
+.line_27 {
+	position: absolute;
+	left: 75.5%;
+	top: 49.5%;
+	width: 4.07%;
+	height: 1.26%;
+	background: url(/static/images/loginImg/dottedLine/line27.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_28 {
+	position: absolute;
+	left: 71%;
+	top: 46%;
+	width: 3.75%;
+	height: 4.95%;
+	background: url(/static/images/loginImg/dottedLine/line28.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_29 {
+	position: absolute;
+	left: 71%;
+	top: 44.5%;
+	width: 3.1%;
+	height: 1.8%;
+	background: url(/static/images/loginImg/dottedLine/line29.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_30 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line30.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_7 .1s linear 0.8s 1 normal forwards;
+	-moz-animation: line_7 .1s linear 0.8s 1 normal forwards;
+	-webkit-animation: line_7 .1s linear 0.8s 1 normal forwards;
+	-o-animation: line_7 .1s linear 0.8s 1 normal forwards;
+}
+
+.line_31 {
+	position: absolute;
+	left: 64%;
+	top: 34.5%;
+	width: 7.66%;
+	height: 4.1%;
+	background: url(/static/images/loginImg/dottedLine/line31.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.8s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.8s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.8s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.8s linear 3.15s infinite alternate;
+}
+
+.line_32 {
+	position: absolute;
+	left: 58.5%;
+	top: 30%;
+	width: 7.98%;
+	height: 4.38%;
+	background: url(/static/images/loginImg/dottedLine/line32.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_33 {
+	position: absolute;
+	left: 24.7%;
+	top: 35.8%;
+	width: 3.75%;
+	height: 5.14%;
+	background: url(/static/images/loginImg/dottedLine/line33.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.85s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.85s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.85s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.85s linear 3.15s infinite alternate;
+}
+
+.line_34 {
+	position: absolute;
+	left: 26.5%;
+	top: 32.3%;
+	width: 2.22%;
+	height: 3.56%;
+	background: url(/static/images/loginImg/dottedLine/line34.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_35 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line35.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_8 .1s linear .85s 1 normal forwards;
+	-moz-animation: line_8 .1s linear .85s 1 normal forwards;
+	-webkit-animation: line_8 .1s linear .85s 1 normal forwards;
+	-o-animation: line_8 .1s linear .85s 1 normal forwards;
+}
+
+.line_36 {
+	position: absolute;
+	left: 22%;
+	top: 32.2%;
+	width: 4.56%;
+	height: 0.66%;
+	background: url(/static/images/loginImg/dottedLine/line36.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_37 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line37.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_50 .1s linear 2.95s 1 normal forwards;
+	-moz-animation: line_50 .1s linear 2.95s 1 normal forwards;
+	-webkit-animation: line_50 .1s linear 2.95s 1 normal forwards;
+	-o-animation: line_50 .1s linear 2.95s 1 normal forwards;
+}
+
+.line_38 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line38.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_51 .1s linear 3s 1 normal forwards;
+	-moz-animation: line_51 .1s linear 3s 1 normal forwards;
+	-webkit-animation: line_51 .1s linear 3s 1 normal forwards;
+	-o-animation: line_51 .1s linear 3s 1 normal forwards;
+}
+
+.line_39 {
+	position: absolute;
+	left: 80%;
+	top: 64%;
+	width: 4.4%;
+	height: 3.03%;
+	background: url(/static/images/loginImg/dottedLine/line39.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.9s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.9s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.9s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.9s linear 3.15s infinite alternate;
+}
+
+.line_40 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line40.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_9 .1s linear .9s 1 normal forwards;
+	-moz-animation: line_9 .1s linear .9s 1 normal forwards;
+	-webkit-animation: line_9 .1s linear .9s 1 normal forwards;
+	-o-animation: line_9 .1s linear .9s 1 normal forwards;
+}
+
+.line_41 {
+	position: absolute;
+	left: 68%;
+	top: 70%;
+	width: 5.48%;
+	height: 3.78%;
+	background: url(/static/images/loginImg/dottedLine/line41.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_42 {
+	position: absolute;
+	left: 53%;
+	top: 47%;
+	width: 3.63%;
+	height: 4.95%;
+	background: url(/static/images/loginImg/dottedLine/line42.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.5s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.5s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.5s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.5s linear 3.15s infinite alternate;
+}
+
+.line_43 {
+	position: absolute;
+	left: 48%;
+	top: 42%;
+	width: 4.88%;
+	height: 4.48%;
+	background: url(/static/images/loginImg/dottedLine/line43.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.95s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.95s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.95s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.95s linear 3.15s infinite alternate;
+}
+
+.line_44 {
+	position: absolute;
+	left: 47.7%;
+	top: 32%;
+	width: 8.02%;
+	height: 1.61%;
+	background: url(/static/images/loginImg/dottedLine/line44.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_45 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line45.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_10 .1s linear .95s 1 normal forwards;
+	-moz-animation: line_10 .1s linear .95s 1 normal forwards;
+	-webkit-animation: line_10 .1s linear .95s 1 normal forwards;
+	-o-animation: line_10 .1s linear .95s 1 normal forwards;
+}
+
+.line_46 {
+	position: absolute;
+	left: 36.5%;
+	top: 18.3%;
+	width: 5.24%;
+	height: 2.43%;
+	background: url(/static/images/loginImg/dottedLine/line46.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_47 {
+	position: absolute;
+	left: 36.5%;
+	top: 19.3%;
+	width: 6.37%;
+	height: 1.48%;
+	background: url(/static/images/loginImg/dottedLine/line47.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_48 {
+	position: absolute;
+	left: 43.5%;
+	top: 19%;
+	width: 5.44%;
+	height: 1.04%;
+	background: url(/static/images/loginImg/dottedLine/line48.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_49 {
+	position: absolute;
+	left: 25.5%;
+	top: 20%;
+	width: 5.64%;
+	height: 3.34%;
+	background: url(/static/images/loginImg/dottedLine/line49.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_50 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line50.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_11 .1s linear 1s 1 normal forwards;
+	-moz-animation: line_11 .1s linear 1s 1 normal forwards;
+	-webkit-animation: line_11 .1s linear 1s 1 normal forwards;
+	-o-animation: line_11 .1s linear 1s 1 normal forwards;
+}
+
+.line_51 {
+	position: absolute;
+	left: 21.5%;
+	top: 24.5%;
+	width: 4.07%;
+	height: 3.53%;
+	background: url(/static/images/loginImg/dottedLine/line51.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_52 {
+	position: absolute;
+	left: 78.7%;
+	top: 38.5%;
+	width: 2.46%;
+	height: 4.38%;
+	background: url(/static/images/loginImg/dottedLine/line52.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_53 {
+	position: absolute;
+	left: 71%;
+	top: 26%;
+	width: 7.42%;
+	height: 1.95%;
+	background: url(/static/images/loginImg/dottedLine/line53.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_54 {
+	position: absolute;
+	left: 73.5%;
+	top: 28%;
+	width: 4.27%;
+	height: 5.33%;
+	background: url(/static/images/loginImg/dottedLine/line54.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_55 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line55.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_12 .1s linear 1.05s 1 normal forwards;
+	-moz-animation: line_12 .1s linear 1.05s 1 normal forwards;
+	-webkit-animation: line_12 .1s linear 1.05s 1 normal forwards;
+	-o-animation: line_12 .1s linear 1.05s 1 normal forwards;
+}
+
+.line_56 {
+	position: absolute;
+	left: 70%;
+	top: 19%;
+	width: 5.16%;
+	height: 3.5%;
+	background: url(/static/images/loginImg/dottedLine/line56.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2s linear 3.15s infinite alternate;
+}
+
+.line_57 {
+	position: absolute;
+	left: 64.8%;
+	top: 23%;
+	width: 6.49%;
+	height: 3.56%;
+	background: url(/static/images/loginImg/dottedLine/line57.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_58 {
+	position: absolute;
+	left: 57%;
+	top: 16.4%;
+	width: 4.72%;
+	height: 0.25%;
+	background: url(/static/images/loginImg/dottedLine/line58.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_59 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line59.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_42 .1s linear 2.55s 1 normal forwards;
+	-moz-animation: line_42 .1s linear 2.55s 1 normal forwards;
+	-webkit-animation: line_42 .1s linear 2.55s 1 normal forwards;
+	-o-animation: line_42 .1s linear 2.55s 1 normal forwards;
+}
+
+.line_60 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line60.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_13 .1s linear 1.1s 1 normal forwards;
+	-moz-animation: line_13 .1s linear 1.1s 1 normal forwards;
+	-webkit-animation: line_13 .1s linear 1.1s 1 normal forwards;
+	-o-animation: line_13 .1s linear 1.1s 1 normal forwards;
+}
+
+.line_61 {
+	position: absolute;
+	left: 55.3%;
+	top: 25.3%;
+	width: 4.84%;
+	height: 2.52%;
+	background: url(/static/images/loginImg/dottedLine/line61.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_62 {
+	position: absolute;
+	left: 64%;
+	top: 25.3%;
+	width: 4.07%;
+	height: 6.43%;
+	background: url(/static/images/loginImg/dottedLine/line62.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 1.55s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 1.55s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 1.55s linear 3.15s infinite alternate;
+	-o-animation: pic_1 1.55s linear 3.15s infinite alternate;
+}
+
+.line_63 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line63.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_43 .1s linear 2.6s 1 normal forwards;
+	-moz-animation: line_43 .1s linear 2.6s 1 normal forwards;
+	-webkit-animation: line_43 .1s linear 2.6s 1 normal forwards;
+	-o-animation: line_43 .1s linear 2.6s 1 normal forwards;
+}
+
+.line_64 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line64.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_44 .1s linear 2.65s 1 normal forwards;
+	-moz-animation: line_44 .1s linear 2.65s 1 normal forwards;
+	-webkit-animation: line_44 .1s linear 2.65s 1 normal forwards;
+	-o-animation: line_44 .1s linear 2.65s 1 normal forwards;
+}
+
+.line_65 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line65.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_14 .1s linear 1.15s 1 normal forwards;
+	-moz-animation: line_14 .1s linear 1.15s 1 normal forwards;
+	-webkit-animation: line_14 .1s linear 1.15s 1 normal forwards;
+	-o-animation: line_14 .1s linear 1.15s 1 normal forwards;
+}
+
+.line_66 {
+	position: absolute;
+	left: 50.5%;
+	top: 21.5%;
+	width: 7.22%;
+	height: 3.69%;
+	background: url(/static/images/loginImg/dottedLine/line66.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.05s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.05s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.05s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.05s linear 3.15s infinite alternate;
+}
+
+.line_67 {
+	position: absolute;
+	left: 12.5%;
+	top: 45%;
+	width: 3.67%;
+	height: 0.85%;
+	background: url(/static/images/loginImg/dottedLine/line67.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.1s linear 3.15s infinite alternate;
+}
+
+.line_68 {
+	position: absolute;
+	left: 51%;
+	top: 39.8%;
+	width: 11.37%;
+	height: 7.98%;
+	background: url(/static/images/loginImg/dottedLine/line68.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.1s linear 3.15s infinite alternate;
+}
+
+.line_69 {
+	position: absolute;
+	left: 55.5%;
+	top: 37.3%;
+	width: 10.12%;
+	height: 8.73%;
+	background: url(/static/images/loginImg/dottedLine/line69.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_70 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line70.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_45 .1s linear 2.7s 1 normal forwards;
+	-moz-animation: line_45 .1s linear 2.7s 1 normal forwards;
+	-webkit-animation: line_45 .1s linear 2.7s 1 normal forwards;
+	-o-animation: line_45 .1s linear 2.7s 1 normal forwards;
+}
+
+.line_71 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line71.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_15 .1s linear 1.2s 1 normal forwards;
+	-moz-animation: line_15 .1s linear 1.2s 1 normal forwards;
+	-webkit-animation: line_15 .1s linear 1.2s 1 normal forwards;
+	-o-animation: line_15 .1s linear 1.2s 1 normal forwards;
+}
+
+.line_72 {
+	position: absolute;
+	left: 20.5%;
+	top: 69.3%;
+	width: 3.95%;
+	height: 2.27%;
+	background: url(/static/images/loginImg/dottedLine/line72.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.1s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.1s linear 3.15s infinite alternate;
+}
+
+.line_73 {
+	position: absolute;
+	left: 23.5%;
+	top: 68%;
+	width: 3.14%;
+	height: 1.36%;
+	background: url(/static/images/loginImg/dottedLine/line73.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_74 {
+	position: absolute;
+	left: 39.5%;
+	top: 77%;
+	width: 2.58%;
+	height: 2.17%;
+	background: url(/static/images/loginImg/dottedLine/line74.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_75 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line75.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_16 .1s linear 1.25s 1 normal forwards;
+	-moz-animation: line_16 .1s linear 1.25s 1 normal forwards;
+	-webkit-animation: line_16 .1s linear 1.25s 1 normal forwards;
+	-o-animation: line_16 .1s linear 1.25s 1 normal forwards;
+}
+
+.line_76 {
+	position: absolute;
+	left: 39%;
+	top: 74%;
+	width: 5.12%;
+	height: 2.99%;
+	background: url(/static/images/loginImg/dottedLine/line76.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_77 {
+	position: absolute;
+	left: 39%;
+	top: 74%;
+	width: 2.86%;
+	height: 3.12%;
+	background: url(/static/images/loginImg/dottedLine/line77.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_78 {
+	position: absolute;
+	left: 32%;
+	top: 72.3%;
+	width: 6.98%;
+	height: 1.67%;
+	background: url(/static/images/loginImg/dottedLine/line78.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.25s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.25s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.25s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.25s linear 3.15s infinite alternate;
+}
+
+.line_79 {
+	position: absolute;
+	left: 36%;
+	top: 71.6%;
+	width: 3.14%;
+	height: 2.46%;
+	background: url(/static/images/loginImg/dottedLine/line79.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.3s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.3s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.3s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.3s linear 3.15s infinite alternate;
+}
+
+.line_80 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line80.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_17 .1s linear 1.3s 1 normal forwards;
+	-moz-animation: line_17 .1s linear 1.3s 1 normal forwards;
+	-webkit-animation: line_17 .1s linear 1.3s 1 normal forwards;
+	-o-animation: line_17 .1s linear 1.3s 1 normal forwards;
+}
+
+.line_81 {
+	position: absolute;
+	left: 28%;
+	top: 72.7%;
+	width: 4.43%;
+	height: 3.59%;
+	background: url(/static/images/loginImg/dottedLine/line81.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_82 {
+	position: absolute;
+	left: 44%;
+	top: 48.4%;
+	width: 2.62%;
+	height: 3.37%;
+	background: url(/static/images/loginImg/dottedLine/line82.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.35s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.35s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.35s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.35s linear 3.15s infinite alternate;
+}
+
+.line_83 {
+	position: absolute;
+	left: 31.2%;
+	top: 23.7%;
+	width: 5.12%;
+	height: 1.01%;
+	background: url(/static/images/loginImg/dottedLine/line83.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_84 {
+	position: absolute;
+	left: 25.2%;
+	top: 25%;
+	width: 5.24%;
+	height: 1.76%;
+	background: url(/static/images/loginImg/dottedLine/line84.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_85 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line85.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_18 .1s linear 1.35s 1 normal forwards;
+	-moz-animation: line_18 .1s linear 1.35s 1 normal forwards;
+	-webkit-animation: line_18 .1s linear 1.35s 1 normal forwards;
+	-o-animation: line_18 .1s linear 1.35s 1 normal forwards;
+}
+
+.line_86 {
+	position: absolute;
+	left: 18%;
+	top: 33%;
+	width: 4.07%;
+	height: 5.74%;
+	background: url(/static/images/loginImg/dottedLine/line86.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_87 {
+	position: absolute;
+	left: 17.7%;
+	top: 33%;
+	width: 4.03%;
+	height: 5.74%;
+	background: url(/static/images/loginImg/dottedLine/line87.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_88 {
+	position: absolute;
+	left: 28%;
+	top: 72.3%;
+	width: 3.55%;
+	height: 0.82%;
+	background: url(/static/images/loginImg/dottedLine/line88.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_89 {
+	position: absolute;
+	left: 26%;
+	top: 67.8%;
+	width: 2.38%;
+	height: 4.63%;
+	background: url(/static/images/loginImg/dottedLine/line89.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_90 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line90.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_19 .1s linear 1.4s 1 normal forwards;
+	-moz-animation: line_19 .1s linear 1.4s 1 normal forwards;
+	-webkit-animation: line_19 .1s linear 1.4s 1 normal forwards;
+	-o-animation: line_19 .1s linear 1.4s 1 normal forwards;
+}
+
+.line_91 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line91.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_47 .1s linear 2.8s 1 normal forwards;
+	-moz-animation: line_47 .1s linear 2.8s 1 normal forwards;
+	-webkit-animation: line_47 .1s linear 2.8s 1 normal forwards;
+	-o-animation: line_47 .1s linear 2.8s 1 normal forwards;
+}
+
+.line_92 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line92.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_48 .1s linear 2.85s 1 normal forwards;
+	-moz-animation: line_48 .1s linear 2.85s 1 normal forwards;
+	-webkit-animation: line_48 .1s linear 2.85s 1 normal forwards;
+	-o-animation: line_48 .1s linear 2.85s 1 normal forwards;
+}
+
+.line_93 {
+	position: absolute;
+	left: 29%;
+	top: 62.5%;
+	width: 5.24%;
+	height: 5.48%;
+	background: url(/static/images/loginImg/dottedLine/line93.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_94 {
+	position: absolute;
+	left: 15%;
+	top: 55.5%;
+	width: 0.52%;
+	height: 4.19%;
+	background: url(/static/images/loginImg/dottedLine/line94.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_95 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line95.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_20 .1s linear 1.45s 1 normal forwards;
+	-moz-animation: line_20 .1s linear 1.45s 1 normal forwards;
+	-webkit-animation: line_20 .1s linear 1.45s 1 normal forwards;
+	-o-animation: line_20 .1s linear 1.45s 1 normal forwards;
+}
+
+.line_96 {
+	position: absolute;
+	left: 15.3%;
+	top: 44%;
+	width: 1.73%;
+	height: 5.9%;
+	background: url(/static/images/loginImg/dottedLine/line96.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.45s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.45s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.45s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.45s linear 3.15s infinite alternate;
+}
+
+.line_97 {
+	position: absolute;
+	left: 12%;
+	top: 37%;
+	width: 2.38%;
+	height: 4.98%;
+	background: url(/static/images/loginImg/dottedLine/line97.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_98 {
+	position: absolute;
+	left: 16.3%;
+	top: 29%;
+	width: 3.31%;
+	height: 3.75%;
+	background: url(/static/images/loginImg/dottedLine/line98.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_99 {
+	position: absolute;
+	left: 14.3%;
+	top: 33%;
+	width: 4.48%;
+	height: 4%;
+	background: url(/static/images/loginImg/dottedLine/line99.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_100 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line100.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_21 .1s linear 1.5s 1 normal forwards;
+	-moz-animation: line_21 .1s linear 1.5s 1 normal forwards;
+	-webkit-animation: line_21 .1s linear 1.5s 1 normal forwards;
+	-o-animation: line_21 .1s linear 1.5s 1 normal forwards;
+}
+
+.line_101 {
+	position: absolute;
+	left: 17.8%;
+	top: 32.7%;
+	width: 4.15%;
+	height: 5.9%;
+	background: url(/static/images/loginImg/dottedLine/line101.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.5s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.5s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.5s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.5s linear 3.15s infinite alternate;
+}
+
+.line_102 {
+	position: absolute;
+	left: 14.3%;
+	top: 35.2%;
+	width: 4.15%;
+	height: 4.98%;
+	background: url(/static/images/loginImg/dottedLine/line102.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_103 {
+	position: absolute;
+	left: 11.7%;
+	top: 46%;
+	width: 0.97%;
+	height: 4.19%;
+	background: url(/static/images/loginImg/dottedLine/line103.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_104 {
+	position: absolute;
+	left: 13%;
+	top: 45%;
+	width: 2.9%;
+	height: 4.98%;
+	background: url(/static/images/loginImg/dottedLine/line104.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.55s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.55s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.55s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.55s linear 3.15s infinite alternate;
+}
+
+.line_105 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line105.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_22 .1s linear 1.55s 1 normal forwards;
+	-moz-animation: line_22 .1s linear 1.55s 1 normal forwards;
+	-webkit-animation: line_22 .1s linear 1.55s 1 normal forwards;
+	-o-animation: line_22 .1s linear 1.55s 1 normal forwards;
+}
+
+.line_106 {
+	position: absolute;
+	left: 13.7%;
+	top: 59%;
+	width: 2.34%;
+	height: 0.72%;
+	background: url(/static/images/loginImg/dottedLine/line106.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_107 {
+	position: absolute;
+	left: 15.7%;
+	top: 48%;
+	width: 6.93%;
+	height: 6.34%;
+	background: url(/static/images/loginImg/dottedLine/line107.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_108 {
+	position: absolute;
+	left: 15.5%;
+	top: 54%;
+	width: 3.23%;
+	height: 1.23%;
+	background: url(/static/images/loginImg/dottedLine/line108.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_109 {
+	position: absolute;
+	left: 15%;
+	top: 50%;
+	width: 0.36%;
+	height: 5.33%;
+	background: url(/static/images/loginImg/dottedLine/line109.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_110 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line110.png) no-repeat;
+	background-size: 100% 100%;
+	animation: pic_1 2.6s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.6s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.6s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.6s linear 3.15s infinite alternate;
+}
+
+.line_111 {
+	position: absolute;
+	left: 50%;
+	top: 63%;
+	width: 7.9%;
+	height: 0.69%;
+	background: url(/static/images/loginImg/dottedLine/line111.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_112 {
+	position: absolute;
+	left: 58.5%;
+	top: 72%;
+  width: 2.26%;
+	height: 3.78%;
+	background: url(/static/images/loginImg/dottedLine/line112.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_113 {
+	position: absolute;
+	left: 60.5%;
+	top: 79.2%;
+	width: 4.43%;
+	height: 0.19%;
+	background: url(/static/images/loginImg/dottedLine/line113.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_114 {
+	position: absolute;
+	left: 49%;
+	top: 79.2%;
+	width: 7.62%;
+	height: 1.29%;
+	background: url(/static/images/loginImg/dottedLine/line114.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.7s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.7s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.7s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.7s linear 3.15s infinite alternate;
+}
+
+.line_115 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line115.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_24 .1s linear 1.65s 1 normal forwards;
+	-moz-animation: line_24 .1s linear 1.65s 1 normal forwards;
+	-webkit-animation: line_24 .1s linear 1.65s 1 normal forwards;
+	-o-animation: line_24 .1s linear 1.65s 1 normal forwards;
+}
+
+.line_116 {
+	position: absolute;
+	left: 42%;
+	top: 77.3%;
+	width: 7.3%;
+	height: 2.27%;
+	background: url(/static/images/loginImg/dottedLine/line116.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_117 {
+	position: absolute;
+	left: 51%;
+	top: 70.7%;
+	width: 11.61%;
+	height: 6.81%;
+	background: url(/static/images/loginImg/dottedLine/line117.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.65s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.65s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.65s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.65s linear 3.15s infinite alternate;
+}
+
+.line_118 {
+	position: absolute;
+	left: 29%;
+	top: 62.8%;
+	width: 5.32%;
+	height: 5.55%;
+	background: url(/static/images/loginImg/dottedLine/line118.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+
+
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_119 {
+	position: absolute;
+	left: 42.6%;
+	top: 71.5%;
+	width: 11.09%;
+	height: 6.71%;
+	background: url(/static/images/loginImg/dottedLine/line119.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.75s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.75s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.75s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.75s linear 3.15s infinite alternate;
+}
+
+.line_120 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line120.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_25 .1s linear 1.7s 1 normal forwards;
+	-moz-animation: line_25 .1s linear 1.7s 1 normal forwards;
+	-webkit-animation: line_25 .1s linear 1.7s 1 normal forwards;
+	-o-animation: line_25 .1s linear 1.7s 1 normal forwards;
+}
+
+.line_121 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line121.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_46 .1s linear 2.75s 1 normal forwards;
+	-moz-animation: line_46 .1s linear 2.75s 1 normal forwards;
+	-webkit-animation: line_46 .1s linear 2.75s 1 normal forwards;
+	-o-animation: line_46 .1s linear 2.75s 1 normal forwards;
+}
+
+.line_122 {
+	position: absolute;
+	left: 41%;
+	top: 61.7%;
+	width: 10.77%;
+	height: 3.06%;
+	background: url(/static/images/loginImg/dottedLine/line122.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.8s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.8s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.8s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.8s linear 3.15s infinite alternate;
+}
+
+.line_123 {
+	position: absolute;
+	left: 50%;
+	top: 63%;
+	width: 8.39%;
+	height: 0.54%;
+	background: url(/static/images/loginImg/dottedLine/line123.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_124 {
+	position: absolute;
+	left: 15%;
+	top: 37.8%;
+	width: 4.03%;
+	height: 7.75%;
+	background: url(/static/images/loginImg/dottedLine/line124.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_125 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line125.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_26 .1s linear 1.75s 1 normal forwards;
+	-moz-animation: line_26 .1s linear 1.75s 1 normal forwards;
+	-webkit-animation: line_26 .1s linear 1.75s 1 normal forwards;
+	-o-animation: line_26 .1s linear 1.75s 1 normal forwards;
+}
+
+.line_126 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line126.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_49 .1s linear 2.9s 1 normal forwards;
+	-moz-animation: line_49 .1s linear 2.9s 1 normal forwards;
+	-webkit-animation: line_49 .1s linear 2.9s 1 normal forwards;
+	-o-animation: line_49 .1s linear 2.9s 1 normal forwards;
+}
+
+.line_127 {
+	position: absolute;
+	left: 38.5%;
+	top: 50.3%;
+	width: 9.64%;
+	height: 6.18%;
+	background: url(/static/images/loginImg/dottedLine/line127.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.85s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.85s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.85s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.85s linear 3.15s infinite alternate;
+}
+
+.line_128 {
+	position: absolute;
+	left: 54.5%;
+	top: 62.3%;
+	width: 11.49%;
+	height: 6.65%;
+	background: url(/static/images/loginImg/dottedLine/line128.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.4s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.4s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.4s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.4s linear 3.15s infinite alternate;
+}
+
+.line_129 {
+	position: absolute;
+	left: 35.5%;
+	top: 45.8%;
+	width: 9.8%;
+	height: 3.66%;
+	background: url(/static/images/loginImg/dottedLine/line129.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_130 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line130.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_27 .1s linear 1.8s 1 normal forwards;
+	-moz-animation: line_27 .1s linear 1.8s 1 normal forwards;
+	-webkit-animation: line_27 .1s linear 1.8s 1 normal forwards;
+	-o-animation: line_27 .1s linear 1.8s 1 normal forwards;
+}
+
+.line_131 {
+	position: absolute;
+	left: 30%;
+	top: 41.8%;
+	width: 8.55%;
+	height: 6.46%;
+	background: url(/static/images/loginImg/dottedLine/line131.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_132 {
+	position: absolute;
+	left: 13%;
+	top: 54.8%;
+	width: 2.54%;
+	height: 4.85%;
+	background: url(/static/images/loginImg/dottedLine/line132.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_133 {
+	position: absolute;
+	left: 25%;
+	top: 73.5%;
+	width: 5.2%;
+	height: 4.07%;
+	background: url(/static/images/loginImg/dottedLine/line133.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_134 {
+	position: absolute;
+	left: 24%;
+	top: 71.5%;
+	width: 1.53%;
+	height: 2.49%;
+	background: url(/static/images/loginImg/dottedLine/line134.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.9s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.9s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.9s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.9s linear 3.15s infinite alternate;
+}
+
+.line_135 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line135.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_28 .1s linear 1.85s 1 normal forwards;
+	-moz-animation: line_28 .1s linear 1.85s 1 normal forwards;
+	-webkit-animation: line_28 .1s linear 1.85s 1 normal forwards;
+	-o-animation: line_28 .1s linear 1.85s 1 normal forwards;
+}
+
+.line_136 {
+	position: absolute;
+	left: 12.7%;
+	top: 54.5%;
+	width: 2.78%;
+	height: 5.08%;
+	background: url(/static/images/loginImg/dottedLine/line136.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_137 {
+	position: absolute;
+	left: 18.7%;
+	top: 54.5%;
+	width: 5.81%;
+	height: 4.13%;
+	background: url(/static/images/loginImg/dottedLine/line137.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_138 {
+	position: absolute;
+	left: 23.3%;
+	top: 65.7%;
+	width: 6.29%;
+	height: 1.76%;
+	background: url(/static/images/loginImg/dottedLine/line138.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_139 {
+	position: absolute;
+	left: 27.5%;
+	top: 50%;
+	width: 6.13%;
+	height: 3.78%;
+	background: url(/static/images/loginImg/dottedLine/line139.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_140 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line140.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_29 .1s linear 1.9s 1 normal forwards;
+	-moz-animation: line_29 .1s linear 1.9s 1 normal forwards;
+	-webkit-animation: line_29 .1s linear 1.9s 1 normal forwards;
+	-o-animation: line_29 .1s linear 1.9s 1 normal forwards;
+}
+
+.line_141 {
+	position: absolute;
+	left: 50%;
+	top: 59%;
+	width: 8.39%;
+	height: 4.29%;
+	background: url(/static/images/loginImg/dottedLine/line141.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_142 {
+	position: absolute;
+	left: 42.5%;
+	top: 60%;
+	width: 7.82%;
+	height: 3.53%;
+	background: url(/static/images/loginImg/dottedLine/line142.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_143 {
+	position: absolute;
+	left: 34.3%;
+	top: 68%;
+	width: 4.76%;
+	height: 3.72%;
+	background: url(/static/images/loginImg/dottedLine/line143.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_144 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line144.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_41 .1s linear 2.5s 1 normal forwards;
+	-moz-animation: line_41 .1s linear 2.5s 1 normal forwards;
+	-webkit-animation: line_41 .1s linear 2.5s 1 normal forwards;
+	-o-animation: line_41 .1s linear 2.5s 1 normal forwards;
+}
+
+.line_145 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line145.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_30 .1s linear 1.95s 1 normal forwards;
+	-moz-animation: line_30 .1s linear 1.95s 1 normal forwards;
+	-webkit-animation: line_30 .1s linear 1.95s 1 normal forwards;
+	-o-animation: line_30 .1s linear 1.95s 1 normal forwards;
+}
+
+.line_146 {
+	position: absolute;
+	left: 22.7%;
+	top: 57%;
+	width: 8.18%;
+	height: 6.81%;
+	background: url(/static/images/loginImg/dottedLine/line146.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 2.95s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 2.95s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 2.95s linear 3.15s infinite alternate;
+	-o-animation: pic_1 2.95s linear 3.15s infinite alternate;
+}
+
+.line_147 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line147.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_40 .1s linear 2.45s 1 normal forwards;
+	-moz-animation: line_40 .1s linear 2.45s 1 normal forwards;
+	-webkit-animation: line_40 .1s linear 2.45s 1 normal forwards;
+	-o-animation: line_40 .1s linear 2.45s 1 normal forwards;
+}
+
+.line_148 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line148.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_39 .1s linear 2.4s 1 normal forwards;
+	-moz-animation: line_39 .1s linear 2.4s 1 normal forwards;
+	-webkit-animation: line_39 .1s linear 2.4s 1 normal forwards;
+	-o-animation: line_39 .1s linear 2.4s 1 normal forwards;
+}
+
+.line_149 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line149.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_38 .1s linear 2.35s 1 normal forwards;
+	-moz-animation: line_38 .1s linear 2.35s 1 normal forwards;
+	-webkit-animation: line_38 .1s linear 2.35s 1 normal forwards;
+	-o-animation: line_38 .1s linear 2.35s 1 normal forwards;
+}
+
+.line_150 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line150.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_31 .1s linear 2s 1 normal forwards;
+	-moz-animation: line_31 .1s linear 2s 1 normal forwards;
+	-webkit-animation: line_31 .1s linear 2s 1 normal forwards;
+	-o-animation: line_31 .1s linear 2s 1 normal forwards;
+}
+
+.line_151 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line151.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_37 .1s linear 2.3s 1 normal forwards;
+	-moz-animation: line_37 .1s linear 2.3s 1 normal forwards;
+	-webkit-animation: line_37 .1s linear 2.3s 1 normal forwards;
+	-o-animation: line_37 .1s linear 2.3s 1 normal forwards;
+}
+
+.line_152 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line152.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_36 .1s linear 2.25s 1 normal forwards;
+	-moz-animation: line_36 .1s linear 2.25s 1 normal forwards;
+	-webkit-animation: line_36 .1s linear 2.25s 1 normal forwards;
+	-o-animation: line_36 .1s linear 2.25s 1 normal forwards;
+}
+
+.line_153 {
+	position: absolute;
+	left: 52%;
+	top: 25%;
+	width: 2.74%;
+	height: 2.74%;
+	background: url(/static/images/loginImg/dottedLine/line153.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_154 {
+	position: absolute;
+	left: 45%;
+	top: 25%;
+	width: 11.09%;
+	height: 4.29%;
+	background: url(/static/images/loginImg/dottedLine/line154.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: pic_1 3s linear 3.15s infinite alternate;
+	-moz-animation: pic_1 3s linear 3.15s infinite alternate;
+	-webkit-animation: pic_1 3s linear 3.15s infinite alternate;
+	-o-animation: pic_1 3s linear 3.15s infinite alternate;
+}
+
+.line_155 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line155.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_32 .1s linear 2.05s 1 normal forwards;
+	-moz-animation: line_32 .1s linear 2.05s 1 normal forwards;
+	-webkit-animation: line_32 .1s linear 2.05s 1 normal forwards;
+	-o-animation: line_32 .1s linear 2.05s 1 normal forwards;
+}
+
+.line_156 {
+	position: absolute;
+	left: 52%;
+	top: 23.5%;
+	width: 5.48%;
+	height: 1.67%;
+	background: url(/static/images/loginImg/dottedLine/line156.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_157 {
+	position: absolute;
+	left: 45%;
+	top: 20%;
+	width: 5.56%;
+	height: 3.18%;
+	background: url(/static/images/loginImg/dottedLine/line157.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_158 {
+	position: absolute;
+	left: 33.5%;
+	top: 30.7%;
+	width: 7.66%;
+	height: 4.73%;
+	background: url(/static/images/loginImg/dottedLine/line158.png) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	animation: line_ 3.1s linear 0s 1 normal forwards;
+	-moz-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-webkit-animation: line_ 3.1s linear 0s 1 normal forwards;
+	-o-animation: line_ 3.1s linear 0s 1 normal forwards;
+}
+
+.line_159 {
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0%;
+	top: 0%;
+	width: 0;
+	height: 0;
+	background: url(/static/images/loginImg/dottedLine/line159.png) no-repeat;
+	background-size: 100% 100%;
+	animation: line_33 .1s linear 2.1s 1 normal forwards;
+	-moz-animation: line_33 .1s linear 2.1s 1 normal forwards;
+	-webkit-animation: line_33 .1s linear 2.1s 1 normal forwards;
+	-o-animation: line_33 .1s linear 2.1s 1 normal forwards;
+}

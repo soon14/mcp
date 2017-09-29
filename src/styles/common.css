@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
